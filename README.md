@@ -148,6 +148,10 @@ Security Impact:
 This is safe because you’re only re-enabling the Windows built-in RDP rules — you're not creating new loose ports.
 However, always ensure you're connecting through Tailscale IP only, not allowing public internet access.
 
+---
+
+### 👨‍💻 Author
+Mario Tagaras | Florida State University Alum
 
 
 
