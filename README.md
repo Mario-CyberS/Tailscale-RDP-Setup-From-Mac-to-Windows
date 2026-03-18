@@ -59,12 +59,12 @@ ACL Configuration:
   "acls": [
     {
       "action": "accept",
-      "src": ["Mario-CyberS@github"],
+      "src": ["User@github"],
       "dst": ["tag:home:3389"]
     }
   ],
   "tagOwners": {
-    "tag:home": ["Mario-CyberS@github"]
+    "tag:home": ["User@github"]
   }
 }
 ```
@@ -76,7 +76,7 @@ Used Microsoft Remote Desktop with:
 In the Microsoft Remote Desktop app:
 
 Field	Value
-PC Name:	100.94.168.104 or homelab (DNS name)
+PC Name:	100.94.168.** or homelab (DNS name)
 Credentials:	homelab\owner and its pass
 Friendly Name:	Home Windows
 Gateway:	(None)
@@ -112,7 +112,7 @@ ping <PC-TailScal-IP>
 ### 6. Final Security Enhancements
 Feature	Status
 ACLs with tag restrictions: Enabled
-Identity restriction: GitHub only (Mario-CyberS)
+Identity restriction: GitHub only (User)
 NAT traversal (P2P): Enabled
 Firewall for RDP: Enabled with PowerShell
 MagicDNS: Enabled via device config
